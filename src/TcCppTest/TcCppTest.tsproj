@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.25">
+	<Project ProjectGUID="{F84AB030-6650-4424-BFCC-1B56F10EA71F}" Target64Bit="true" ShowHideConfigurations="#x106">
+		<System>
+			<Settings MaxCpus="4">
+				<Cpu CpuId="3"/>
+			</Settings>
+			<Tasks>
+				<Task Id="2" Priority="1" CycleTime="100000" AmsPort="350" AdtTasks="true">
+					<Name>ExampleTask</Name>
+				</Task>
+			</Tasks>
+		</System>
+		<Cpp>
+			<Project GUID="{C533CB92-933C-4092-8D2A-302B8DFD1C8F}" Name="TcCppTestLib" PrjFilePath="TcCppTestLib\TcCppTestLib.vcxproj" TmcFilePath="TcCppTestLib\TcCppTestLib.tmc"/>
+			<Project GUID="{17954F22-FA2D-4B36-84FC-FDF9783665FE}" Name="Example" PrjFilePath="..\..\samples\Example\Example.vcxproj" TmcFilePath="..\..\samples\Example\Example.tmc"/>
+		</Cpp>
+	</Project>
+</TcSmProject>

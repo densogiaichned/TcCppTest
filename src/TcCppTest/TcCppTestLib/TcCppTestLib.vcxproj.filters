@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c6b63310-418e-48b0-ad45-684257afdcfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{193c754e-ef9d-4eeb-94d0-149b07c177d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TMC Files">
+      <UniqueIdentifier>{c344db2e-568f-4869-b527-00be5a15b560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dsian">
+      <UniqueIdentifier>{d2b104a5-cb17-42f8-9261-0e6d9c50c91a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TcPch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TcCppTestLibInterfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TcCppTestLibServices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dsian\TcCppTest.h">
+      <Filter>dsian</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TcPch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dsian\TcCppTest.cpp">
+      <Filter>dsian</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TcCppTestLib.tmc">
+      <Filter>TMC Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

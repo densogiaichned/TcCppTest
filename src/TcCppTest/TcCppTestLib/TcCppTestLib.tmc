@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TcModuleClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2009/05/TcModuleClass" GeneratedBy="densogiaichned">
+	<Vendor>
+		<Name>dsian</Name>
+	</Vendor><Comment><![CDATA[https://github.com/densogiaichned/TcCppTest]]></Comment>
+	<DataTypes/>
+	<Groups>
+		<Group SortOrder="701">
+			<Name>C++</Name>
+			<DisplayName>C++ Modules</DisplayName>
+		</Group>
+	</Groups>
+	<Modules/>
+</TcModuleClass>
